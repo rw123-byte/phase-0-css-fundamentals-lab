@@ -1,5 +1,52 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        
+        header {
+            text-align: center;
+        }
+        
+        #details {
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        
+        #details div {
+            text-align: center;
+            background: red;
+            width: 25%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: horizontal;
+            align-items: horizontal;
+            display: flex;
+            float: left;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px;
+        }
+        
+        #featured-property p {
+            text-align: center;
+            width: 800px;
+            margin: auto;
+        }
+        
+        nav a {
+            padding-left: 10px;
+            padding-right: 10px;
+            background: grey;
+        }
+        
+        figcaption {
+            text-align: center;
+            width: 800px;
+            margin: auto;
+        }
